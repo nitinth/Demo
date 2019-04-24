@@ -6,7 +6,7 @@ public class Temp
   Temp()
   {
 	  System.out.println(this);
-	  System.out.println("hi");
+	  System.out.println("Hi");
   }
 public static void main(String...z)
 {
