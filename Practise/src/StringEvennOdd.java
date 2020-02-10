@@ -9,6 +9,7 @@ public class StringEvennOdd
 			reverse = reverse + name.charAt(i);
 		}
 		System.out.println(reverse);
+		System.out.println();
 
 	}
 
