@@ -6,6 +6,7 @@ public class ReverseCount
 	static String s4 = "";
 	public static void main(String[] args) 
 	{
+		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the first string");
 		String s1 = input.nextLine();
@@ -40,6 +41,7 @@ public class ReverseCount
 					break;
 				}
 				else
+					
 				{
 					 s3 = s3+s1.charAt(i);
 					
